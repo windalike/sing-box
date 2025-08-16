@@ -3,7 +3,7 @@
     "servers": [
       {"tag": "local", "type": "udp", "server": "119.29.29.29"},
       {"tag": "public", "type": "https", "server": "doh.pub", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": "1.1.1.1"}
+      {"tag": "foreign", "type": "https", "server": "8.8.8.8"}
     ],
     "rules": [
       {"clash_mode": "direct", "server": "local"},
