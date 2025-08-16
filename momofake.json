@@ -3,7 +3,7 @@
     "servers": [
       {"tag": "local", "type": "udp", "server": "119.29.29.29"},
       {"tag": "public", "type": "https", "server": "doh.pub", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": "1.1.1.1"},
+      {"tag": "foreign", "type": "https", "server": "8.8.8.8"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
